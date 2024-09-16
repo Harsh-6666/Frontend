@@ -80,7 +80,7 @@ export default function HomePage() {
   const initUser = () => {
     // Check to see if user has Metamask
     if (!ethWallet) {
-      return <p>Please install Metamask in order to use this T System.</p>
+      return <p>Please install Metamask in order to use this Temperature System.</p>
     }
 
     // Check to see if user is connected. If not, connect to their account
@@ -88,7 +88,7 @@ export default function HomePage() {
       return <button onClick={connectAccount}>Please connect your Metamask wallet</button>
     }
 
-    if (T == undefined) {
+    if (Temperature == undefined) {
       getBalance();
     }
 
@@ -98,7 +98,7 @@ return (
       <p>AC: {account}</p>
       </h6>
       <h6 className="flex justify-center font-black text-5xl">
-      <p>Temperature : {T}</p>
+      <p>Temperature : {Temperature}</p>
       </h6>
      
       <div className="flex items-center justify-evenly">
