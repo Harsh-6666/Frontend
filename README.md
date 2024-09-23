@@ -1,4 +1,4 @@
-# Rating System with Frontend
+# Temperature controlling system with Frontend
 This project demonstrates the integration of a smart contract with a frontend application using Ethereum, React, and Hardhat.
 
 # Smart Contract
